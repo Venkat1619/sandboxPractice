@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  testMatch: ["example.spec.ts"],
+  testMatch: ["windowOperation.spec.ts"],
   timeout: 30 * 1000,
   expect: {
     timeout: 5000
@@ -21,7 +21,8 @@ export default defineConfig({
     // baseURL:"https://opensource-demo.orangehrmlive.com/web/index.php/",
     // baseURL:"https://www.saucedemo.com/",
     // baseURL:"https://demo.guru99.com/test/newtours/"
-    baseURL:"https://demoqa.com/"
+    // baseURL:"https://demoqa.com/"
+    baseURL:"https://automatenow.io/sandbox-automation-testing-practice-website/"
   },
 
   projects: [
